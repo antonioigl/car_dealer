@@ -21,6 +21,6 @@
         {
             parent::__construct();
             // your own logic
-            $this->roles = ['ROLE_USER'];
+            $this->roles = ['ROLE_ADMIN'];
         }
     }
