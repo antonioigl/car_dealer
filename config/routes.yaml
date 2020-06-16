@@ -1,10 +1,10 @@
-test_login:
-    path: /admin/testlogin
-    controller: App\Controller\TestLoginController::index
+welcome:
+  path: /
+  controller: App\Controller\WelcomeController::index
 
-#list:
-#  path: /admin/list
-#  controller: App\Controller\BrandController::index
+test_login:
+  path: /admin/testlogin
+  controller: App\Controller\TestLoginController::index
 
 fos_user:
   resource: "@FOSUserBundle/Resources/config/routing/all.xml"
